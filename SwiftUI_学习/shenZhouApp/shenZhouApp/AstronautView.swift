@@ -24,6 +24,7 @@ struct AstronautView: View {
 	
     var body: some View {
 		//Text(astronauts[0].name)
+       // environment(WritableKeyPath<EnvironmentValues, V>, <#T##value: V##V#>)
 		GeometryReader{ geometry in
 			
 			ScrollView{
