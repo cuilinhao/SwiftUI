@@ -27,9 +27,9 @@ struct ContentView: View {
                         Toggle(isOn: $order.isAddIce) {
                             Text("是否加冰")
                         }
-                        Toggle(isOn: $order.isAddSugar) {
-                            Text("是否加糖")
-                        }
+//                        Toggle(isOn: $order.addSugar) {
+//                            Text("是否加糖")
+//                        }
                     }
                 }
                 

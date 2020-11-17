@@ -51,12 +51,12 @@ struct CheckOutView: View {
             guard let decodedData = try? JSONDecoder().decode(Order.self, from: data) else{ return }
             print("_____22____\(decodedData)")
             //把解码后的数据显示在界面上
-            let ice = decodedData.isAddIce ? "加冰" : ""
-            let sugar = decodedData.isAddSugar ? "加糖" : ""
+//            let ice = decodedData.isAddIce ? "加冰" : ""
+//            let sugar = decodedData.isAddSugar ? "加糖" : ""
             
             self.message = """
             服务器已经收到您的订单：
-            \(decodedData.num)杯奶茶\(ice)\(sugar)
+            \(decodedData.num)杯奶茶
             送到以下地址：
             \(decodedData.name)
             \(decodedData.address)

@@ -109,7 +109,7 @@ class OrderModel: Codable, ObservableObject{
         try container.encode(isAddIce, forKey: .isAddIce)
         try container.encode(isAddSugar, forKey: .isAddSugar)
         try container.encode(name, forKey: .name)
-        try container.encode(phone, forKey: .phone)
+        //try container.encode(phone, forKey: .phone)
         try container.encode(address, forKey: .address)
     }
     
