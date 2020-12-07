@@ -57,6 +57,12 @@ class TestModel {
 		var style: BeerStyle?
 	}
 
+    class Beerr {
+        var name: String = ""
+        var brewery: String?
+        var style: BeerStyle?
+    }
+    
 	class Beer4: Wine {
 		var name: String?
 		var brewery: String?

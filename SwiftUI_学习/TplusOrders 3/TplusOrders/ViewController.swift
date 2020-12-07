@@ -21,6 +21,9 @@ class jsonViewController: UIViewController {
 //		jsonFunc4()
 //		jsonFunc7()
 //		jsonFunc8()
+        test()
+        test1()
+        
 	}
 }
 
@@ -28,7 +31,14 @@ class jsonViewController: UIViewController {
 
 extension jsonViewController {
 	
-	
+    func test() {
+        print("++++++++")
+    }
+    
+    func test1() {
+        print("000000")
+    }
+    
 	/*
 	/// JSON 数据结构和Model 对象结构一致
 	func jsonFunc1() {
